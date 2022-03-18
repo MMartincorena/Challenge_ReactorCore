@@ -47,13 +47,6 @@ public class CSVUtilTest {
         assert listFilter.block().size() == 322;
     }
 
-    /*@Test
-    void createCsv() throws IOException {
-
-        List<String[]> players = CsvUtilFile.createCsvFIle();
-        assert !players.isEmpty();
-
-    }*/
 
     @Test
     void stream_filtrarJugadoresMayoresA35() throws IOException {
